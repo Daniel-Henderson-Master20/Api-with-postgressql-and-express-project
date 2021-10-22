@@ -16,7 +16,7 @@
   "author": "Dan The Dev",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.0.1",
+    "bcrypt": "*",
     "body-parser": "^1.19.0",
     "db-migrate": "^0.11.12",
     "db-migrate-pg": "^1.2.2",
