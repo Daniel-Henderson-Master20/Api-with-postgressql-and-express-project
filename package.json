@@ -6,7 +6,7 @@
   "scripts": {
     "prettify": "prettier --config .prettierrc 'src/**/*.ts' --write",
     "lint": "npm run prettify && npx eslint . --ext .ts",
-    "start": "nodemon src/server.ts",
+    "start": "ts-node src/server.ts",
     "jasmine": "jasmine",
     "watch": "tsc-watch --esModuleInterop src/server.ts --outDir ./dist --onSuccess 'node ./dist/server.js'",
     "drop": "db-migrate db:drop test",
@@ -16,7 +16,7 @@
   "author": "Dan The Dev",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "*",
+    "bcrypt": "3.0.3",
     "body-parser": "^1.19.0",
     "db-migrate": "^0.11.12",
     "db-migrate-pg": "^1.2.2",
