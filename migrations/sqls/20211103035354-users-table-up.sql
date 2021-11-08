@@ -1,6 +1,6 @@
 /* Replace with your SQL commands */
--- CREATE USER full_stack_js WITH PASSWORD 'postgres';
-GRANT ALL PRIVILEGES ON DATABASE full_stack_js TO postgres;
+-- CREATE USER shopping_user WITH PASSWORD 'postgres';
+GRANT ALL PRIVILEGES ON DATABASE shopping_user TO postgres;
 GRANT ALL PRIVILEGES ON DATABASE test TO postgres;
 
 CREATE TABLE users (

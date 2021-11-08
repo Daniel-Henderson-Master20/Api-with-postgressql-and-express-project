@@ -1,16 +1,18 @@
 {
     "dev": {
         "driver": "pg",
-        "host": "127.0.0.1",
-        "database": "full_stack_js",
+        "host": "localhost",
+        "database": "shopping",
         "user": {"ENV": "POSTGRES_USER"},
-        "password": {"ENV": "POSTGRES_PASSWORD"}
+        "password": {"ENV": "POSTGRES_PASSWORD"},
+        "port": {"ENV": "POSTGRES_PORT"}
     },
     "test": {
         "driver": "pg",
-        "host": "127.0.0.1",
-        "database": "test",
+        "host": "localhost",
+        "database": "shopping_test",
         "user": {"ENV": "POSTGRES_USER"},
-        "password": {"ENV": "POSTGRES_PASSWORD"}
+        "password": {"ENV": "POSTGRES_PASSWORD"},
+        "port": {"ENV": "POSTGRES_PORT"}
     }
 }
